@@ -31,11 +31,13 @@ header h1 {
 section {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    height: 100vh;
 }
 
 
 article {
     border-left: 1px solid #137B90;
+    height: 100vh;
 } 
 
 article li {
