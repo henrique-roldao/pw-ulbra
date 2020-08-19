@@ -11,7 +11,7 @@
 							<a href="https://www.instagram.com/rique_roldao/" target="_blank" class="button is-light is-large"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 						</div>
 					</div>
-					<div class="column is-one-third has-text-left">
+					<div class="column is-one-third has-text-left space">
 						<div class="field">
 							<label class="label">Name</label>
 							<div class="control">

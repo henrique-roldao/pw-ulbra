@@ -17,6 +17,10 @@ body {
   .field:not(:last-child) {
     margin-bottom: 20px;
   }
+
+  .space {
+    margin-top: 3.6rem;
+  }
   
   @media screen and (min-width: 768px) {
     body {
