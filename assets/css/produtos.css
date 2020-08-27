@@ -8,6 +8,10 @@
 	height: max-content;
 }
 
+.section {
+	margin-top: 8rem;
+}
+
 @media (max-width: 699px) {
 	.section .container {
 		grid-template-columns: 1fr;

@@ -31,9 +31,11 @@
         </div>
         <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item is-active" href="?controller=site&acao=home" >Home</a>
-                <a class="navbar-item" href="?controller=site&acao=produtos">Produtos</a>
-                <a class="navbar-item" href="?controller=site&acao=contato">Contato</a>
+                <a class="navbar-item is-active" href="?controller=site&action=home" >Home</a>
+                <a class="navbar-item" href="?controller=site&action=produtos">Produtos</a>
+                <a class="navbar-item" href="?controller=site&action=contato">Contato</a>
+                <a class="navbar-item" href="?controller=clients&action=register">Cadastro</a>
+
             </div>
         </div>
     </div>

@@ -21,6 +21,10 @@ body {
   .space {
     margin-top: 3.6rem;
   }
+
+  .columns.is-variable .column {
+    margin-top: 8rem;
+  }
   
   @media screen and (min-width: 768px) {
     body {

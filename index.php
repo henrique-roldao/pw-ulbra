@@ -9,10 +9,10 @@ if(!isset($_GET['controller'])) {
         case 'site':
             require_once("controllers/site.php");
             $site = new siteControler();
-            if(!isset($_GET['acao'])){
+            if(!isset($_GET['action'])){
                 $site -> home();
             }else {
-                switch ($_REQUEST['acao']) {
+                switch ($_REQUEST['action']) {
                     case 'home':
                         $site -> home();
                     break;
@@ -21,6 +21,23 @@ if(!isset($_GET['controller'])) {
                     break;
                     case 'contato':
                         $site -> contato();
+                    break;
+                }
+            }
+        break;
+
+        case 'clients':
+            require_once('controllers/clients.php');
+            $client = new clientsController;
+            if(!isset ($_GET['action'])){
+                $client -> index();
+            } else {
+                switch($_REQUEST['action']) {
+                    case 'register':
+                        $client -> register();
+                    break;
+                    case 'registerView':
+                        $client -> registerView();
                     break;
                 }
             }

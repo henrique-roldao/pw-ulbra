@@ -1,6 +1,9 @@
 .logo-languages {
     vertical-align: bottom;
 }
+.columns:not(:last-child) {
+    margin-top: 8rem;
+}
 
 .footer {
     padding: 1rem 1.5rem;
