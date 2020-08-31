@@ -9,3 +9,8 @@
     padding: 1rem 1.5rem;
     margin-top: 4rem;
 }
+
+.checkbox,
+.radio {
+    margin-right: 0.8rem;
+}

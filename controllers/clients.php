@@ -15,9 +15,12 @@ class clientsController {
     public function registerView(){
         $client = array(
             'name' => $_POST['name'],
+            'gender' => $_POST['gender'],
+            $languages = $_POST['languages'],
+            'typeOfDeveloper' => $_POST['typeOfDeveloper'],
             'email' => $_POST['email'],
-            'interest' => $_POST['interest'],
-            'languages' => $_POST['languages']
+            'password' => $_POST['password'],
+            'description' => $_POST['description']
         );
         require_once('views/templates/header.php');
         require_once('views/clients/registerView.php');

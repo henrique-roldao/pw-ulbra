@@ -3,67 +3,68 @@
 		<div class="container has-text-centered">
 			<div class="columns is-8 is-variable ">
 				<div class="column is-two-thirds has-text-left">
-					<h1 class="title is-1">Participe dessa pesquisa</h1>
-					<p class="is-size-4">Queremos saber mais sobre você, assim poderemos criar conteúdo focado no nosso público.</p>
-				</div>
+					<h1 class="title is-1">Registre-se !</h1>
+					<p class="is-size-4">Ao registar você irá ter acesso aos conteúdos privilegiados postado aqui no blog.
+                        Com suas informações poderemos criar conteúdos mais específicados no nosso público-alvo.
+                    </p>
+                </div>
+                
                 <div class="column is-one-third has-text-left space">
                     <form action="?controller=clients&action=registerView" method="POST">
                         <div class="field">
                             <label class="label">Nome </label>
-                            <div class="control">
+                            <div class="control has-icons-left">
                                 <input class="input is-medium" type="text" name="name" placeholder="Seu nome">
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Sua idade</label>
-                            <div class="control">
-                                <input class="input is-medium" type="range" name="vol" value="13" min="13" max="99"
-                                oninput="display.value=value" onchange="display.value=value">
-                                <input class="input is-medium" type="text" id="display" value="13" readonly>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
                             </div>
                         </div>
                         
                         <div class="field">
                             <div class="control">
                                 <label class="radio">
-                                    <input  type="radio" name="masc">
+                                    <input  type="radio" name="gender" value="masculino">
                                         Masculino
                                 </label>
                                 <label class="radio">
-                                    <input type="radio" name="fem">
+                                    <input type="radio" name="gender" value="feminino">
                                         Feminino
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="gender" value="outro">
+                                        Outro
                                 </label>
                             </div>
                         </div>
 
                         <div class="field">
-                            <label class="label">Quais linguages de programação você estuda?</label>
+                            <label class="label">Quais linguagens você está estudando?</label>
                             <div class="control">
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="python">
                                     Python
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="kotlin">
                                     Kotlin
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="java">
                                     Java
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="javascript">
                                     Javascript
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="typescript">
                                     Typescript
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="languages[]" value="GO">
+                                    <input type="checkbox" name="languages[]" value="golang">
                                     GO
-                                </label><br>
+                                </label>
                                 <label class="checkbox">
                                     <input type="checkbox" name="languages[]" value="swift">
                                     Swift
@@ -71,17 +72,45 @@
                             </div>
                         </div>
 
+                        
                         <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control">
-                                <input class="input is-medium" type="text" name="email" placeholder="email@exemplo.com">
-                            </div>
+                            <p class="control has-icons-left">
+                                <span class="select">
+                                <select name="typeOfDeveloper">
+                                    <option selected>Qual tipo de programador você deseja ser?</option>
+                                    <option>Front-End</option>
+                                    <option>Back-End</option>
+                                    <option>FullStack</option>
+                                </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user-tie"></i>
+                                </span>
+                            </p>
                         </div>
 
                         <div class="field">
-                            <label class="label">Interesse</label>
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Email" name="email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input name="password" class="input" type="password" placeholder="Password">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                            </p>
+                        </div>  
+
+                        <div class="field">
+                            <label class="label">Uma descrição sobre você <span style="color: grey; font-weight:normal">( não obrigatório )</span></label>
                             <div class="control">
-                                <input class="input is-medium" type="text" name="interest" placeholder="Seus interesse">
+                                <textarea name="description" class="textarea" placeholder="Exemplo: Sou estudante de Ánalise desenvolvimento de sistemas ..."></textarea>
                             </div>
                         </div>
 
