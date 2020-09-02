@@ -12,6 +12,8 @@
     <script src="https://kit.fontawesome.com/c53a01de21.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/text-home.css">
+    
 </head>
 
 <body>

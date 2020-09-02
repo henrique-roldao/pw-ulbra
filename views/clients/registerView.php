@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>Nome</th>
-        <th>Gender</th>
+        <th>Gênero</th>
         <th>Linguagens</th>
         <th>Desenvolvedor</th>
         <th>Email</th>
@@ -13,18 +13,17 @@
       </tr>
     </thead>
     <tbody>
+    <?php foreach ($clients as $client):?>
       <tr>
         <td><?=$client['name']?></td>
         <td><?=$client['gender']?></td>
-        <td><?php
-        foreach($languages as $language) {
-            echo $language . ", ";
-        }?></td>
+        <td><?=$client['languages']?></td>
         <td><?=$client['typeOfDeveloper']?></td>
         <td><?=$client['email']?></td>
         <td><?=$client['password']?></td>
         <td><?=$client['description']?></td>
       </tr>
+      <?php endforeach; ?>
     </tbody>
   </table>
 

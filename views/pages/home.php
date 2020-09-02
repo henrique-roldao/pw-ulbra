@@ -1,5 +1,14 @@
 <!-- Image -->
-<section class="hero ">
+<section class="hero">
+    <div class="hero-body body-brasil">
+        <div class="container">
+            <div class="brasil" data-text="Dev.Up">Dev.Up</div>
+            <p class="line-1 anim-typewriter">Olá Dev, bem vindo a evolução!</p>
+        </div>
+    </div>
+</section>
+
+<section class="hero">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
@@ -31,7 +40,7 @@
 
         </div>
     </div>
-</section>
+</>
 
 <!-- Articles -->
 

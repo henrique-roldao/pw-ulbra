@@ -69,6 +69,10 @@
                                     <input type="checkbox" name="languages[]" value="swift">
                                     Swift
                                 </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="languages[]" value="outro">
+                                    Outro
+                                </label>
                             </div>
                         </div>
 
@@ -77,10 +81,10 @@
                             <p class="control has-icons-left">
                                 <span class="select">
                                 <select name="typeOfDeveloper">
-                                    <option selected>Qual tipo de programador você deseja ser?</option>
-                                    <option>Front-End</option>
-                                    <option>Back-End</option>
-                                    <option>FullStack</option>
+                                    <option selected hidden disabled>Qual tipo de programador você deseja ser?</option>
+                                    <option value="frontend">Front-End</option>
+                                    <option value="backend">Back-End</option>
+                                    <option value="fullstack">FullStack</option>
                                 </select>
                                 </span>
                                 <span class="icon is-small is-left">

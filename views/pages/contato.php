@@ -32,7 +32,7 @@
 							</div>
 						</div>
 						<div class="control">
-							<button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+							<button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Enviar mensagem</button>
 						</div>
 					</form>
 				</div>
