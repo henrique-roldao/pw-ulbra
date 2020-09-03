@@ -39,6 +39,9 @@ if(!isset($_GET['controller'])) {
                     case 'registerView':
                         $client -> registerView();
                     break;
+                    case 'registeraction':
+                        $client -> registerAction();
+                    break;
                 }
             }
         break;

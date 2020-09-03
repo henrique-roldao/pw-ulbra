@@ -48,4 +48,21 @@ class Client
             return array('error' => false, 'message' => 'Ocorreu um erro ao Cadastrar o cliente.');
         }
     }
+
+    public function delete($id)
+    {
+        try {
+            $sql = "DELETE FROM clients WHERE idClient=?";
+            $stmt = self::$conn->prepare($sql);
+            $stmt->bindParam(1, $id);
+            if ($stmt->execute()) {
+                return array('error' => true, 'message' => 'Cliente removido com sucesso.');
+            } else {
+                return array('error' => false, 'message' => 'Ocorreu um erro ao remover o cliente.');
+            }
+        } catch (PDOException $err) {
+            echo 'Error <code>' . $err->getMessage() . "</code>";
+            return array('error' => false, 'message' => 'Ocorreu um erro ao remover o cliente.');
+        }
+    }
 }

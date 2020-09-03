@@ -10,7 +10,7 @@
                 </div>
                 
                 <div class="column is-one-third has-text-left space">
-                    <form action="?controller=clients&action=registerView" method="POST">
+                    <form action="?controller=clients&action=registeraction" method="POST">
                         <div class="field">
                             <label class="label">Nome </label>
                             <div class="control has-icons-left">

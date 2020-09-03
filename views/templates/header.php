@@ -37,6 +37,7 @@
                 <a class="navbar-item" href="?controller=site&action=produtos">Produtos</a>
                 <a class="navbar-item" href="?controller=site&action=contato">Contato</a>
                 <a class="navbar-item" href="?controller=clients&action=register">Cadastro</a>
+                <a class="navbar-item" href="?controller=clients&action=registerView">Listar</a>
 
             </div>
         </div>

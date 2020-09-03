@@ -17,6 +17,14 @@ class clientsController {
     }
 
     public function registerView(){
+
+        $clients = $this->clientdb -> index();
+        require_once('views/templates/header.php');
+        require_once('views/clients/registerView.php');
+        require_once('views/templates/footer.php');
+    }
+
+    public function registerAction() {
         if($_SERVER['REQUEST_METHOD']=='POST') 
         {
             $languages = implode(',', $_POST['languages']);
@@ -32,13 +40,7 @@ class clientsController {
                 )
             );
         }
-
-
-        $clients = $this->clientdb -> index();
-        require_once('views/templates/header.php');
-        require_once('views/clients/registerView.php');
-        require_once('views/templates/footer.php');
-
+        header('Location: index.php?controller=site&action=home');
     }
 }
 
