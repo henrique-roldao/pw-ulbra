@@ -22,8 +22,8 @@
 <nav class="navbar">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item" href="?modulo=home">
-                <img src="./assets/img/logo.png" alt="Logo"> <strong>Dev.Up <i class="fas fa-level-up-alt"></i></strong>
+            <a class="navbar-item" href="#">
+                <img src="./assets/img/logo.png" alt="Logo"> <strong>Dev.Up <i class="fas fa-level-up-alt"></i> | Área Administrativa</strong>
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
                 <span></span>
@@ -33,12 +33,8 @@
         </div>
         <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item is-active" href="?controller=site&action=home" >Home</a>
-                <a class="navbar-item" href="?controller=site&action=produtos">Produtos</a>
-                <a class="navbar-item" href="?controller=site&action=contato">Contato</a>
-                <a class="navbar-item" href="?controller=clients&action=register">Cadastro</a>
-                <a class="navbar-item" href="?controller=clients&action=registerView">Listar</a>
-                <a class="navbar-item" href="adm/index.php">Adm</a>
+                <a class="navbar-item" href="?controller=main&action=logout">Logout</a>
+                <a class="navbar-item" href="#">Listar</a>
             </div>
         </div>
     </div>
