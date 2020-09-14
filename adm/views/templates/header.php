@@ -34,7 +34,7 @@
         <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
                 <a class="navbar-item" href="?controller=main&action=logout">Logout</a>
-                <a class="navbar-item" href="#">Listar</a>
+                <a class="navbar-item" href="../index.php">Site</a>
             </div>
         </div>
     </div>

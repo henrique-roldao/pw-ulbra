@@ -9,7 +9,6 @@
                     <a class="icon" href="https://github.com/henrique-roldao/pw-ulbra" target="_blank">
                         <i class="fa fa-github"></i>
                     </a>
-                    <a href="../index.php">Site</a>
                 </p>
             </div>
         </div>
