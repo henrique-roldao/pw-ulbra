@@ -5,13 +5,13 @@
       <table class="table is-responsive">
         <thead>
           <tr>
+            <th>ID</th>
             <th>Nome</th>
-            <th>Gênero</th>
-            <th>Linguagens</th>
-            <th>Desenvolvedor</th>
             <th>Email</th>
-            <th>Senha</th>
-            <th>Descrição</th>
+            <th>Telefone</th>
+            <th>Endereço</th>
+            <th>Editar</th>
+            <th>Deletar</th>
           </tr>
         </thead>
         <tbody>

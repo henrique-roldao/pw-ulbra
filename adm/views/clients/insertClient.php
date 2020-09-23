@@ -1,7 +1,7 @@
 <section class="hero is-primary is-fullheight">
     <div class="hero-body">
         <div class="container">
-            <div class="columns is-5-tablet is-4-desktop is-3-widescreen">
+            <div class="columns is-mobile">
                 <div class="column">
                     <form class="box" action="?controller=clients&action=insertClientAction" method=POST enctype='multipart/form-data'>
 
@@ -43,7 +43,7 @@
                         <div class="field">
                             <p class="control">
                                 <button type="submit" class="button is-success">
-                                    Login
+                                    Cadastrar
                                 </button>
                             </p>
                         </div>
