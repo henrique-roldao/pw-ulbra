@@ -35,6 +35,8 @@
             <div class="navbar-end">
                 <a class="navbar-item" href="?controller=main&action=logout">Logout</a>
                 <a class="navbar-item" href="../index.php">Site</a>
+                <a class="navbar-item" href="?controller=clients&action=listClients">Listar Clientes</a>
+                <a class="navbar-item" href="?controller=clients&action=insertClient">Add Clientes</a>
             </div>
         </div>
     </div>

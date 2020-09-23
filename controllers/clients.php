@@ -5,7 +5,6 @@ require_once("models/Client.php");
 class clientsController {
         private $clientdb;
     function __construct()
-
     {
         $this->clientdb = new Client();
     }
