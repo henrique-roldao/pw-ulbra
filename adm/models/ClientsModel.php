@@ -14,7 +14,7 @@
         }
         public function getClients() {
  
-            $sql = 'SELECT * FROM clients';
+            $sql = 'SELECT * FROM clients order by idClient';
 
             $this -> result = $this -> conn -> query($sql);
 
@@ -35,6 +35,44 @@
 
             $this -> conn -> query($sql);
         }
+
+        public function getClient($idClient)
+        {
+            $sql = "
+                SELECT * FROM clients 
+                WHERE idClient = {$idClient}
+            ";
+            $this -> result = $this -> conn -> query($sql);
+        }
+
+        public function updateClient($arrayClient)
+        {
+            $sql = "
+                UPDATE clients 
+                    set 
+                        name='{$arrayClient['name']}',
+                        email='{$arrayClient['email']}',
+                        phone='{$arrayClient['phone']}',
+                        address='{$arrayClient['address']}'
+                    where
+                        idClient={$arrayClient['idClient']}
+            ";
+
+            $this -> conn -> query($sql);
+        }
+
+        public function deleteClient($idClient)
+        {
+            $sql = "
+                DELETE FROM clients
+                    where 
+                    idClient = {$idClient}
+            ";
+
+            $this -> conn -> query($sql);
+        }
+
+
 
         public function getConsult(){
             return $this -> result;

@@ -57,6 +57,18 @@ if(!isset($_GET['controller'])) {
                     case 'insertClientAction':
                         $Client->insertClientAction(); 
                         break;
+                    case 'updateClient':
+                        $id = $_GET['id'];
+                        $Client->updateClient($id);
+                    break;
+                    case 'updateClientAction':
+                        $id = $_GET['id'];
+                        $Client->updateClientAction($id);
+                    break;
+                    case 'deleteClient':
+                        $id = $_GET['id'];
+                        $Client -> deleteClient($id);
+                    break;
                 }
             }
             break;

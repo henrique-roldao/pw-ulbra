@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/text-home.css">
+    <link rel="stylesheet" href="./assets/css/admin.css">
     
 </head>
 
@@ -22,7 +23,7 @@
 <nav class="navbar">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item" href="#">
+            <a class="navbar-item" href="index.php">
                 <img src="./assets/img/logo.png" alt="Logo"> <strong>Dev.Up <i class="fas fa-level-up-alt"></i> | Área Administrativa</strong>
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">

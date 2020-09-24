@@ -18,7 +18,7 @@
                     <div class="tile is-ancestor has-text-centered">
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">6</p>
+                                <p class="title">2</p>
                                 <p class="subtitle">Usuários</p>
                             </article>
                         </div>
