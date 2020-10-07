@@ -40,7 +40,20 @@
                                 </span>
                             </p>
                         </div>
-                        <div class="field">
+                        <div class="file">
+                            <label class="file-label">
+                                <input class="file-input" type="file" name="photo">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Escolha uma imagem ...
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="field" style="margin-top: 20px;">
                             <p class="control">
                                 <button type="submit" class="button is-success">
                                     Cadastrar
