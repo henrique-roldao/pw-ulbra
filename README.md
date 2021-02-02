@@ -1,5 +1,5 @@
 <h1 align="center">
-     🌆 <a href="#" alt="Site da Landing Page"> Avaliação Final de Programação Web 2020-2 </a>
+     :computer: <a href="#" alt="Site da Landing Page"> Avaliação Final de Programação Web 2020-2 </a>
 </h1>
 
 <h3 align="center">
@@ -44,7 +44,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-🌆 Projeto feito ao longo do meu segundo semestre na faculdade de Análise e Desenvolvimento de Sistemas na ULBRA Torres, na cadeira de Programação Web, aprendemos muito a mexer com Php puro e CodiIgnite, criando rotas, acessos administrativos, funções específicas e afins. Foi uma experiência bem massa, toda semana era um aprendizado novo e um desafio a ser cumprido até a próxima semana.
+:computer: Projeto feito ao longo do meu segundo semestre na faculdade de Análise e Desenvolvimento de Sistemas na ULBRA Torres, na cadeira de Programação Web, aprendemos muito a mexer com Php puro e CodiIgnite, criando rotas, acessos administrativos, funções específicas e afins. Foi uma experiência bem massa, toda semana era um aprendizado novo e um desafio a ser cumprido até a próxima semana.
 
 ---
 
